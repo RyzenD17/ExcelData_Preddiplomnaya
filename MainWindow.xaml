@@ -1,0 +1,12 @@
+﻿<Window x:Class="ExcelData.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExcelData"
+        mc:Ignorable="d"
+        Title="Классный руководитель" Height="768" Width="1366" MinHeight="720" MinWidth="1280">
+    <Grid>
+        <Frame NavigationUIVisibility="Hidden" x:Name="frame" Source="/AuthPage.xaml"/>
+    </Grid>
+</Window>
